@@ -4,6 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+scikit-learn = "*"
+flask = "*"
+mlops-forest-fire-prediction = {file = ".", editable = true}
 
 [dev-packages]
 
