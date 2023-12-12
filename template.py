@@ -8,6 +8,9 @@ logging.basicConfig(level=logging.INFO,
 project_name = "forest_fire_prediction"
 list_of_files = [
                     ".github/workflows/.gitkeep",
+                    "artifacts/dataset/raw/data.csv",
+                    "artifacts/dataset/processed/data.csv",
+                    "artifacts/model/model.pkl",
                     "src/__init__.py", #constructor file to consider as local package
                     "src/components/__init__.py",
                     "src/components/data_ingestion.py",
