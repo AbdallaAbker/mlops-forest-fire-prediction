@@ -3,6 +3,15 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+catboost
+xgboost
 flask
+
+mlflow
+prefect
+tqdm
+requests
+evidently 
+
 
 -e .
